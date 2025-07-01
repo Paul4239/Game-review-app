@@ -3,7 +3,7 @@ const cors = require("cors");
 const { Client } = require("pg");
 require("dotenv").config();
 const app = express();
-const port = process.env.PORT || 4000;
+const port = 5432;
 
 app.use(cors());
 
